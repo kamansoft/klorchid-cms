@@ -1,0 +1,54 @@
+{
+    "name": "kamansoft/klorchid-cms",
+    "description": "A simple backoffice cms system build on top of kamansoft/klorchid package",
+    "keywords": [
+        "kamansoft",
+        "klorchid-cms"
+    ],
+    "homepage": "https://github.com/kamansoft/klorchid-cms",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lemys Kioez",
+            "email": "lemyskaman@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kamansoft\\KlorchidCms\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kamansoft\\KlorchidCms\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kamansoft\\KlorchidCms\\KlorchidCmsServiceProvider"
+            ],
+            "aliases": {
+                "KlorchidCms": "Kamansoft\\KlorchidCms\\KlorchidCmsFacade"
+            }
+        }
+    }
+}
