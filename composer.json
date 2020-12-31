@@ -60,6 +60,13 @@
                 "KlorchidCms": "Kamansoft\\KlorchidCms\\KlorchidCmsFacade"
             }
         }
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "../klorchid",
+            "symlink": true
+        }
     }
 
 
