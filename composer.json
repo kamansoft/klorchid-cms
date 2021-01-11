@@ -58,7 +58,8 @@
                 "Kamansoft\\KlorchidCms\\KlorchidCmsServiceProvider"
             ],
             "aliases": {
-                "KlorchidCms": "Kamansoft\\KlorchidCms\\Facades\\KlorchidCmsFacade"
+                "KlorchidCms": "Kamansoft\\KlorchidCms\\Facades\\KlorchidCmsFacade",
+                "Prueba": "Kamansoft\\KlorchidCms\\Facades\\PruebaFacade"
             }
 
         }
