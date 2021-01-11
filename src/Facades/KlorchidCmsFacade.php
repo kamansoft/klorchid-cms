@@ -1,12 +1,11 @@
 <?php
 
-namespace Kamansoft\KlorchidCms;
+namespace Kamansoft\KlorchidCms\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use Kamansoft\KlorchidCms\KlorchidCms;
 
-/**
- * @see \Kamansoft\KlorchidCms\Skeleton\SkeletonClass
- */
+
 class KlorchidCmsFacade extends Facade
 {
     /**

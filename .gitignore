@@ -1,6 +1,5 @@
 build
-composer.lock
-composer.json
+
 docs
 vendor
 coverage
